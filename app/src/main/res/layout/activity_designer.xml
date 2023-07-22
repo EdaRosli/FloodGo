@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flood3"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="111dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="serif"
+        android:foregroundGravity="center"
+        android:text="Floods News"
+        android:textColor="#74C34A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/slide"
+        android:layout_width="329dp"
+        android:layout_height="256dp"
+        android:layout_below="@id/banjirdesc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="-209dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="315dp"
+        android:src="@drawable/news1" />
+
+    <ImageView
+        android:id="@+id/banjirr"
+        android:layout_width="270dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="73dp"
+        android:src="@drawable/news2" />
+
+    <TextView
+        android:id="@+id/banjirdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="200dp"
+        android:fontFamily="serif"
+        android:text="An aerial view of flooded houses in Yong Peng, Johor, on March 4, 2023. Mega floods like these are not going to stop as the climate crisis continues, so Malaysia needs to start acting now to build resilience and reduce hardships among the people. — AFP"
+        android:textAlignment="center"
+        android:textColor="#FFFCFC"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tanahdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banjirr"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="450dp"
+        android:fontFamily="serif"
+        android:text="Strike out a negligence and breach of statutory duty lawsuit brought against them over the 2021 Taman Sri Muda floods.Fifty residents filed the civil action against MBSA, KDEB and eight others in 2022, seeking RM3.8 million in damages."
+        android:textAlignment="center"
+        android:textColor="#F8F1F1"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
